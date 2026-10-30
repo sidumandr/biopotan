@@ -4,7 +4,8 @@
   "type": "module",
   "workspaces": [
     "protocol",
-    "mock-server"
+    "mock-server",
+    "web"
   ],
   "scripts": {
     "typecheck": "npm run typecheck --workspaces --if-present"
