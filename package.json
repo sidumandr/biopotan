@@ -1,0 +1,15 @@
+{
+  "name": "biopotan",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "protocol",
+    "mock-server"
+  ],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
