@@ -1,0 +1,53 @@
+# biopotan
+
+[English](#english) · [Türkçe](#türkçe)
+
+---
+
+## English
+
+**biopotan** is a hobby project for building a low-cost, open biopotential
+measurement system that can record EMG, ECG and EEG signals, process them on
+an ESP32 and display them in a web interface.
+
+**Status:** early development.
+
+### Structure
+
+- `protocol/` – shared data format between device and interface
+- `firmware/` – ESP32 firmware (C++)
+- `web/` – web interface (Svelte + TypeScript)
+- `mock-server/` – simulated data source for development
+- `docs/` – documentation
+
+### Safety notice
+
+This is an experimental hobby project, **not a medical device**. It must not
+be used for diagnosis or any health-related decision. Never connect
+electrodes to a body while the device is connected, directly or indirectly,
+to mains power.
+
+---
+
+## Türkçe
+
+**biopotan**, EMG, EKG ve EEG sinyallerini kaydedebilen, bunları ESP32
+üzerinde işleyip web arayüzünde gösteren, düşük maliyetli ve açık bir
+biyopotansiyel ölçüm sistemi geliştirmeye yönelik bir hobi projesidir.
+
+**Durum:** geliştirmenin erken aşamasında.
+
+### Yapı
+
+- `protocol/` – cihaz ile arayüz arasındaki ortak veri formatı
+- `firmware/` – ESP32 yazılımı (C++)
+- `web/` – web arayüzü (Svelte + TypeScript)
+- `mock-server/` – geliştirme için sahte veri kaynağı
+- `docs/` – belgeler
+
+### Güvenlik uyarısı
+
+Bu deneysel bir hobi projesidir, **tıbbi bir cihaz değildir**. Teşhis ya da
+sağlıkla ilgili herhangi bir karar için kullanılamaz. Cihaz doğrudan ya da
+dolaylı olarak şebeke elektriğine bağlıyken elektrotları asla vücuda
+bağlamayın.
