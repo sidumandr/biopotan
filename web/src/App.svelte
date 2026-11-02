@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PROTOCOL_VERSION } from "@biopotan/protocol";
+  import { PROTOCOL_VERSION, Mode } from "@biopotan/protocol";
 </script>
 
 <main>
